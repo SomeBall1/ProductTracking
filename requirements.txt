@@ -3,9 +3,6 @@ playwright==1.41.0
 beautifulsoup4==4.12.3
 requests==2.31.0
 
-# Database
-sqlalchemy==2.0.25
-
 # Telegram notifications
 python-telegram-bot==20.8
 
@@ -17,3 +14,5 @@ python-dotenv==1.0.1
 
 # Utilities
 pytz==2024.1
+
+# Note: We use Python's built-in sqlite3 for database (no external dependency needed)
